@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: white;
+}
+ h2 {
+     color: #DAA520;
+ }
+ /*----Nav bar ---*/   
+
+.container-blue {
+    background-color: #F5DEB3;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container-blue h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.border {
+    position: absolute;
+    left: 19%;
+    width: 65%;
+    border-top: 1px solid #fff;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.nav-bar li{
+    width: 300px;
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 20px 20px 25px;
+    font-weight: 500;
+}
+
+.nav-bar a {
+    color: #fff;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 4px 15px;
+    margin: auto 0;
+}
+
+.nav-bar a:hover {
+    color: rgba(255, 255, 255, 0.74);
+}
+/*----Background and intro ---*/   
+
+.container-background {
+    width: 100%;
+    height: 1050px;
+    background-image: url("images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+.intro {
+    height: 270px;
+    background-color: #F5DEB3;
+    text-align: center;
+    font-weight: 400;
+    margin: auto 0;
+}
+
+.intro h1 {
+    padding-top: 50px;
+    font-size: 2.5rem;
+}
+
+.intro p {
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+
+/*----Images ---*/   
+
+.travel {
+    color:   #DAA520;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #FFF5EE;
+    text-align: center;
+}
+
+.container-images {
+    background-color: #FFF5EE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.container-images img {
+    width: 400px;
+    height: 275px;
+    padding: 30px 0;
+}
+
+.pic {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+/*----Footer ---*/  
+
+footer, nav {
+    background-color: #F5DEB3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    margin-right: 20px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 12px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+ul li:hover a {
+    background-color: #DAA520;
+}
+
+ul li a {
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+p{
+    padding-left: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+/*----@media ---*/  
+
+@media only screen and (max-width: 800px) {
+    .intro {
+        height: 225px;
+    }
+
+    .intro h1 {
+        font-size: 1.5rem;
+    }
+    
+    .intro p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    nav ul {
+        width: 25px;
+        padding: 0;
+        left: 10px;
+        height: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .container-blue h1 {
+        font-size: 3rem;
+    }
+}
